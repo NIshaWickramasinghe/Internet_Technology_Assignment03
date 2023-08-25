@@ -1,0 +1,75 @@
+header {
+    position: relative;
+    padding: 10px;
+    height: 50px;
+}
+
+header>img{
+    position: absolute;
+    top: 25px;
+}
+
+header>nav{
+    position: absolute;
+    right: 0;
+}
+
+header>nav>dl>dd{
+    display: inline;
+}
+
+main{
+    position: relative;
+}
+
+main>aside{
+    background: purple;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+main>aside>nav>div>dl>dd{
+    margin-bottom: 10px;
+}
+
+main>section{
+    margin-left: 200px;
+}
+
+main>section>p{
+    margin: 0;
+}
+
+main>section>div>div{
+    background-image: url("../images/IMG_3878.gif");
+    background-size: cover;
+    background-position: center;
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+    border: 1px solid green;
+    display: inline-block;
+    margin-right: -6px;
+    box-sizing: border-box;
+}
+
+footer{
+    background: dimgrey;
+    height: 50px;
+    position: relative;
+}
+
+footer>span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    color: white;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
